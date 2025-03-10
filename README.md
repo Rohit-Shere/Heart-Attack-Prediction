@@ -55,11 +55,8 @@ This project aims to predict the likelihood of a heart attack based on various h
 - Enhance UI/UX with better visualizations.
 
 ---
-📌 **Developed by:** [Your Name]  
-📆 **Date:** [Project Completion Date]
+📌 **Developed by:** Rohit Shere  
+📆 **Date:** 10-03-2025
 
 
 
-<!-- git remote add origin https://github.com/Rohit-Shere/Heart-Attack-Prediction.git
-git branch -M main
-git push -u origin main -->
