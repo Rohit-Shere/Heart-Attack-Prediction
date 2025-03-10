@@ -29,7 +29,7 @@ This project aims to predict the likelihood of a heart attack based on various h
 
 ## 📊 Model Evaluation
 - **Metrics:** Accuracy, Precision, Recall, F1-score, AUC-ROC Curve
-- **Final Model Performance:** [Add metrics]
+- **Final Model Performance:** F1-score
 
 ## 🌍 Web App Deployment
 - **Framework:** Streamlit
