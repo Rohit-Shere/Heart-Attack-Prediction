@@ -137,7 +137,7 @@ if(submit_button):
     st.subheader("🔍 Prediction Result")
     st.write(f"**Probability of No Heart Attack (0):** {prob[0][0]:.2%}")
     st.write(f"**Probability of Heart Attack (1):** {prob[0][1]:.2%}")
-    st.write(f"**Predicted Class:** {'🛑 Heart Attack (1)' if prediction == 1 else '✅ No Heart Attack (0)'}")
+    st.write(f"**Predicted Class:** {'🛑 Heart Attack (1)' if prediction == 'Yes' else '✅ No Heart Attack (0)'}")
 
     # Conditional formatting based on risk
     if prediction == 1:
