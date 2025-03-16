@@ -7,7 +7,7 @@ import pandas as pd
 
 
 #load Model 
-model=joblib.load("./models/model_rm.pkl")
+model=joblib.load("./models/model_rf.pkl")
 
 # Function to take user input and make predictions
 def predict_heart_attack(input):
