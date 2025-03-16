@@ -80,8 +80,8 @@ with st.container():
     bmi = st.number_input("BMI (kg/m²)", 10.0, 50.0, 24.0)
     stress_level = st.selectbox("Stress Level",['Low','Medium','High'])
     #Clinical and test Results
-    Sy_bp=st.number_input("Systolic ",20,150,75)
-    Di_bp=st.number_input("Diastolic ",20,150,60)
+    Sy_bp=st.number_input("Systolic Bp",20,150,75)
+    Di_bp=st.number_input("Diastolic Bp ",20,150,60)
     resting_heart_rate = st.number_input("Resting Heart Rate (bpm)", 40, 120, 70)
     ecg_res=st.selectbox("ECG Results",['Normal','Abnormal'])
     chest_pain=st.selectbox("Chest Pain Type",['Non-anginal','Typical','Atypical','Asymptomatic'])
